@@ -1,0 +1,1 @@
+<?= $this->tag->selectStatic([['name' => 'status'], ['A' => 'Active', 'I' => 'Inactive']]) ?>

@@ -1,0 +1,1 @@
+{{ select_static( ['name':'status'], [ 'A' : 'Active', 'I' : 'Inactive'] ) }}
