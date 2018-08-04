@@ -12,6 +12,7 @@ $di->setShared('view', function () {
         '.volt' => function ($view) {
             $volt = new \Phalcon\Mvc\View\Engine\Volt($view, $this);
             $volt->setOptions([
+                'compiledPath' => __DIR__ . '/cache/',
                 'compiledExtension' => '.cache',
                 'compiledSeparator' => '_',
                 'autoescape' => false,
