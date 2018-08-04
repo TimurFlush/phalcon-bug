@@ -1,5 +1,7 @@
-#!/usr/bin/env php
 <?php
+
+ini_set('error_reporting', E_ALL);
+ini_set('display_errors', true);
 
 $di = new \Phalcon\Di\FactoryDefault();
 $di->setShared('view', function () {

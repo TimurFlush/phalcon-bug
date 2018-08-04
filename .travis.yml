@@ -56,7 +56,7 @@ install:
   - phpenv config-add cphalcon/tests/_ci/phalcon.ini
 
 script:
-  - index.php
+  - php index.php
 
 addons:
   apt:
